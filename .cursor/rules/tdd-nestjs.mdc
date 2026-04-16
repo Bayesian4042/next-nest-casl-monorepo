@@ -7,7 +7,7 @@ alwaysApply: false
 Follow strict Test-Driven Development for all NestJS work.
 
 ## Core workflow
-- Never start with implementation.
+- Never start with implementation, ask user always if it wants to work in Test Driven Development way.
 - First list the proposed test cases briefly.
 - Then write failing tests.
 - Then write the smallest implementation needed to pass.

@@ -7,11 +7,11 @@ import {
   Post,
   UseGuards,
 } from '@nestjs/common';
-import { UsersService } from './users.service';
-import { CaslGuard } from '../casl/casl.guard';
-import { CheckAbility } from '../casl/check-ability.decorator';
-import { CreateUserDto } from './dto/create-user.dto';
-import { UpdateUserDto } from './dto/update-user.dto';
+import { UsersService } from '@/users/users.service';
+import { CaslGuard } from '@/casl/casl.guard';
+import { CheckAbility } from '@/casl/check-ability.decorator';
+import { CreateUserDto } from '@/users/dto/create-user.dto';
+import { UpdateUserDto } from '@/users/dto/update-user.dto';
 
 @Controller('users')
 @UseGuards(CaslGuard)

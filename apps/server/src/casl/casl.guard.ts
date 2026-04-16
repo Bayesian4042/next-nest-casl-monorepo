@@ -7,7 +7,10 @@ import {
 import { Reflector } from '@nestjs/core';
 import type { AuthUser } from '@repo/auth';
 import { CaslAbilityFactory } from './casl-ability.factory';
-import { CHECK_ABILITY_KEY, type AbilityCheck } from './check-ability.decorator';
+import {
+  CHECK_ABILITY_KEY,
+  type AbilityCheck,
+} from './check-ability.decorator';
 
 @Injectable()
 export class CaslGuard implements CanActivate {

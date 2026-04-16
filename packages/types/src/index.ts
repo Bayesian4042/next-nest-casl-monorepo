@@ -1,1 +1,1 @@
-export type { User, CreateUserPayload, UpdateUserPayload } from './user';
+export type { User, CreateUserPayload, UpdateUserPayload } from "./user";
